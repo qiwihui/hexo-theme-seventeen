@@ -1,0 +1,11 @@
+{
+  "name": "seventeen",
+  "version": "0.0.0",
+  "description": "seventeen hexo theme",
+  "private": true,
+  "dependencies": {
+    "fancybox": "^3.0.0",
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^7.0.0"
+  }
+}

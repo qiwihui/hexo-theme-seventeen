@@ -1,0 +1,114 @@
+# ---------------------------------------------------------------
+# Hexo Theme Seventeen
+#
+# Originally Created by Balthild Ires <https://qaq.cat>
+# Migrated to Hexo by 621sama <h@prinzeugen.net>
+# ---------------------------------------------------------------
+version: 1.7
+
+# ---------------------------------------------------------------
+# Color Themes
+#
+# Available Colors: ['lightblue', 'lightgreen', 'orange', 'pink', 'purple', 'red']
+# ---------------------------------------------------------------
+color: lightblue
+
+# ---------------------------------------------------------------
+# Social Links
+# ---------------------------------------------------------------
+social:
+  Twitter: https://twitter.com/Zxh_faith
+  GitHub: https://github.com/zxh326
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+
+# Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
+# See: https://support.google.com/webmasters/answer/139066
+# Tips: Before you open this tag, remember set up your URL in hexo _config.yml (ex. url: http://yourdomain.com)
+canonical: true
+
+# ---------------------------------------------------------------
+# Customization
+# ---------------------------------------------------------------
+favicon: /images/favicon.ico
+icon: /images/favicon.png
+touch_icon: /images/touch-icon.png
+avatar: /images/avatar.png
+logo: /images/logo.png
+
+# ---------------------------------------------------------------
+# Post Settings
+# ---------------------------------------------------------------
+
+# Automatically Excerpt. Not recommend.
+# Please use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enable: false
+  length: 500
+
+# Set default keywords (Use a comma to separate)
+keywords: "Zzde, zxh326, blog, 博客, 独立博客, Hexo"
+
+# ---------------------------------------------------------------
+# RSS Feed
+# ---------------------------------------------------------------
+rss: /atom.xml
+
+# ---------------------------------------------------------------
+# Disqus Short Name
+# ---------------------------------------------------------------
+disqus: zzde
+
+# ---------------------------------------------------------------
+# Third Party Services
+# ---------------------------------------------------------------
+# google_analytics: UA-65656002-1
+# google_site_verification: WUNRfYChNMDduwLOFHG41TsVrre6BOaI7jKshEvtRts
+
+# Default: https://fonts.googleapis.com
+google_font: https://fonts.cat.net
+
+# Link to JSON file which contains play list for APlayer
+# See: https://aplayer.js.org/docs/#/?id=with-playlist
+# aplayer_list: https://work.prinzeugen.net/music/play_list.json
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
+menu_top:
+  tech:
+    name: 技术
+    title: 提高姿势水平
+    path: /categories/tech/
+  archive:
+    name: 归档
+    title: 总览历史文章
+    path: /archives/
+  kaomoji:
+    name: (´・ω・`)
+    title: 点我点我
+    path: javascript:void;
+
+menu_aside:
+  friends:
+    name: 我的小伙伴们
+    title: 友情链接
+    path: /friends
+    icon: link
+  about:
+    name: 关于我
+    title: (*ﾟ∀ﾟ*)
+    path: /about
+    icon: code
+
+# ---------------------------------------------------------------
+# Miscelaneous (Open Graph Resources)
+# ---------------------------------------------------------------
+twitter_id: Zxh_faith
+# google_plus:
+# fb_admins:
+# fb_app_id:

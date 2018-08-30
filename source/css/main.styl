@@ -1,0 +1,23 @@
+/**
+ * Theme Name: Seventeen
+ * Author: Balthild Ires
+ * Author URI: https://qaq.cat
+ * Version: 1.7
+ * License: GNU General Public License v3 or later
+ *
+ * Migrated to Hexo by 621sama
+ *
+ * @Date:   2017-06-13 11:32:14
+ * @Last Modified by:   prpr
+ * @Last Modified time: 2017-06-13 19:43:09
+ */
+
+$color = hexo-config('color') ? hexo-config('color') : 'lightblue';
+
+@import "_libs/normalize.css";
+@import "_colors/" + $color;
+@import "_libs/seventeen";
+@import "_libs/bootstrap.css";
+@import "_libs/hljs-github.css";
+@import "_libs/archive"
+@import "_libs/custom";
