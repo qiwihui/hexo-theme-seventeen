@@ -37,10 +37,7 @@
 
     {% include '_partials/scripts.swig' %}
     {% include '_third-party/google-analytics.swig' %}
-    {% include '_third-party/do-you-like-me.swig' %}
     {% include '_third-party/kaomoji.swig' %}
-    {% include '_third-party/load-gist.swig' %}
-    {% include '_third-party/hexo-view-counter.swig' %}
     {% include '_third-party/aplayer.swig' %}
 
     {% block script_extra %}{% endblock %}
