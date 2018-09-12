@@ -11,7 +11,7 @@ function gistTag(args, content) {
   var id = args.shift();
   var file = args.length ? '?file=' + args[0] : '';
 
-  return '<script src="//work.prinzeugen.net/gist/' + id + '.js' + file + '"></script>';
+  return '<script src="///gist/' + id + '.js' + file + '"></script>';
 }
 
 hexo.extend.tag.register('my_gist', gistTag);

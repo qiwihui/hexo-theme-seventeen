@@ -13,12 +13,7 @@
   {% endif %}
 
   {# Hitokoto Widget #}
-  <div class="clf widget-item widget_text">
-    <div class="textwidget">
-      <script type="text/javascript" src="https://work.prinzeugen.net/hitokoto/hitokoto.php?encode=javascript"></script>
-      <p id="hitokoto"><script>hitokoto();</script></p>
-    </div>
-  </div>
+
 
   {# Do-you-like-me Widget #}
   {# <div class="clf widget-item widget_text">
