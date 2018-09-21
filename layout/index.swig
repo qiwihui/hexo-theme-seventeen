@@ -1,6 +1,6 @@
 {% extends '_layout.swig' %}
 
-{% block title %}{{ config.title }} - (ゝω·)~ kira{% endblock %}
+{% block title %}{{ config.title }} {% endblock %}
 
 {% block page_class %}
   {% if is_home() %} page-home {% endif %}

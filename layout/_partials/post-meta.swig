@@ -12,7 +12,7 @@
   </span>
   <span class="pmt pms fa-clock-o">{{ date(post.date, config.date_format) }}</span>
 
-  <span class="pmt pms extra fa-tag">
+  <span class="pmt pms fa-tag">
     {% if post.tags and post.tags.length %}
       {{ list_tags(post.tags, {
         show_count: false,
