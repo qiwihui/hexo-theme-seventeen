@@ -10,9 +10,11 @@
     <div id="pageframe" class="fw">
       {% include '_partials/nanobar.swig' %}
 
+      <!--
       <div id="top" class="fw clf">
         {% include '_partials/header.swig' %}
       </div>
+      -->
 
       <div id="container" class="wc center clf {% block page_class %}{% endblock %}">
         <script type="text/javascript">nanobar.go(20);</script>
@@ -24,9 +26,11 @@
         {% include '_partials/sidebar.swig' %}
       </div><!-- #container -->
 
+      <!--
       <div id="foot" class="fw">
         {% include '_partials/footer.swig' %}
       </div>
+      -->
 
     </div><!-- #pageframe.fw -->
     <script type="text/javascript">nanobar.go(80);</script>

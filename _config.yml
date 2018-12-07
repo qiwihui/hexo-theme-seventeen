@@ -17,8 +17,8 @@ color: lightblue
 # Social Links
 # ---------------------------------------------------------------
 social:
-  Twitter: https://twitter.com/Zxh_faith
-  GitHub: https://github.com/zxh326
+  Twitter: https://twitter.com/real_qiwihui
+  GitHub: https://github.com/qiwihui
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -35,7 +35,7 @@ canonical: true
 favicon: /images/favicon.ico
 icon: /images/favicon.png
 touch_icon: /images/touch-icon.png
-avatar: /images/avatar.png
+avatar: /images/avatar.jpg
 logo: /images/logo.png
 
 # ---------------------------------------------------------------
@@ -49,7 +49,7 @@ auto_excerpt:
   length: 500
 
 # Set default keywords (Use a comma to separate)
-keywords: "Zzde, zxh326, blog, 博客, 独立博客, Hexo"
+keywords: "qiwihui, blog, 博客, 独立博客, Hexo"
 
 # ---------------------------------------------------------------
 # RSS Feed
@@ -59,7 +59,7 @@ rss: /atom.xml
 # ---------------------------------------------------------------
 # Disqus Short Name
 # ---------------------------------------------------------------
-disqus: zzde
+disqus: qiwihui
 
 # ---------------------------------------------------------------
 # Third Party Services
@@ -80,6 +80,8 @@ google_font: https://fonts.cat.net
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu_top:
+
+menu_aside:
   tech:
     name: 技术
     title: 提高姿势水平
@@ -88,27 +90,25 @@ menu_top:
     name: 归档
     title: 总览历史文章
     path: /archives/
-  kaomoji:
-    name: (´・ω・`)
-    title: 点我点我
-    path: javascript:void;
-
-menu_aside:
-  friends:
-    name: 我的小伙伴们
-    title: 友情链接
-    path: /friends
-    icon: link
   about:
     name: 关于我
     title: (*ﾟ∀ﾟ*)
     path: /about
     icon: code
+  friends:
+    name: 我的小伙伴们
+    title: 友情链接
+    path: /friends
+    icon: link
+  kaomoji:
+    name: (´・ω・`)
+    title: 点我点我
+    path: javascript:void;
 
 # ---------------------------------------------------------------
 # Miscelaneous (Open Graph Resources)
 # ---------------------------------------------------------------
-twitter_id: Zxh_faith
+twitter_id: real_qiwihui
 # google_plus:
 # fb_admins:
 # fb_app_id:
